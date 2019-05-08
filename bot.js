@@ -14,10 +14,10 @@ const p1 = new D1.Client();
 
     console.log("oNNN1");
 p1.on('guildMemberAdd', member => {
-const fuli= member.guild.channels.get("573399652305731596");
+const fuli= member.guild.channels.get("572261532646375425");
 if(!fuli) return;
 if(fuli) {
-setTimeout(() => fuli.send(`**Welcome to Spoil.**`), 7000)
+setTimeout(() => fuli.send(`**Welcome To drrrrip.**`), 7000)
 }
 });
 
