@@ -29,7 +29,7 @@ p2.on('guildMemberAdd', member => {
 const fuli= member.guild.channels.get("521045311213535262");
 if(!fuli) return;
 if(fuli) {
-setTimeout(() => fuli.send(`**.Welcome To Epsilon.**`), 4000)
+setTimeout(() => fuli.send(`**Welcome To Epsilon.**`), 4000)
 }
 });
 
