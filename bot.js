@@ -4,7 +4,7 @@ const D2 = require('discord.js');
 
 
 const p1 = new D1.Client();
-const P2 = new D1.Client();
+const p2 = new D1.Client();
 
 
 
@@ -25,7 +25,7 @@ setTimeout(() => fuli.send(`**Welcome to Spoil.**`), 4000)
 
 
     console.log("oNNN2");
-P2.on('guildMemberAdd', member => {
+p2.on('guildMemberAdd', member => {
 const fuli= member.guild.channels.get("521045311213535262");
 if(!fuli) return;
 if(fuli) {
