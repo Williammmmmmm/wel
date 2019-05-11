@@ -47,8 +47,8 @@ setTimeout(() => fuli.send(`**Welcome to Bùbbles.**`), 9000)
 
 
    console.log("oNNN4");
-p3.on('guildMemberAdd', member => {
-const fuli= member.guild.channels.get("564191993018974209");
+p4.on('guildMemberAdd', member => {
+const fuli= member.guild.channels.get("521045311213535262");
 if(!fuli) return;
 if(fuli) {
 setTimeout(() => fuli.send(`**Welcome To  Epsilon.**`), 6000)
