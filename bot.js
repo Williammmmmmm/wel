@@ -67,4 +67,4 @@ setTimeout(() => fuli.send(`**Welcome To  Epsilon.**`), 6000)
 p1.login(process.env.B);
 p2.login(process.env.B2);
 p3.login(process.env.B3);
-p3.login(process.env.B4);
+p4.login(process.env.B4);
