@@ -9,8 +9,8 @@ const D4 = require('discord.js');
 
 const p1 = new D1.Client();
 const p2 = new D2.Client();
-const p3 = new D2.Client();
-const p4 = new D2.Client();
+const p3 = new D3.Client();
+const p4 = new D4.Client();
 
 
 
