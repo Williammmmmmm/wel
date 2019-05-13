@@ -2,10 +2,8 @@ const D1 = require('discord.js');
 const D2 = require('discord.js');
 
 
-
 const p1 = new D1.Client();
 const p2 = new D2.Client();
-
 
 
 
