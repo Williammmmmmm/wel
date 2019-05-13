@@ -2,8 +2,13 @@ const D1 = require('discord.js');
 const D2 = require('discord.js');
 
 
+
+
+
 const p1 = new D1.Client();
 const p2 = new D2.Client();
+
+
 
 
 
@@ -22,9 +27,14 @@ p2.on('guildMemberAdd', member => {
 const fuli= member.guild.channels.get("521045311213535262");
 if(!fuli) return;
 if(fuli) {
-setTimeout(() => fuli.send(`**Welcome To Epsilon.**`), 7800)
+setTimeout(() => fuli.send(`**Welcome to  Epsilon..**`), 7800)
 }
 });
+
+  
+
+
+
 
 
 
