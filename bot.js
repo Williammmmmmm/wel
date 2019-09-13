@@ -18,7 +18,7 @@ p1.on('guildMemberAdd', member => {
 const fuli= member.guild.channels.get("619479070312235019");
 if(!fuli) return;
 if(fuli) {
-setTimeout(() => fuli.send(`You're in **Valor** Welcome.`), 40000)
+setTimeout(() => fuli.send(`Hello it's Violin ...`), 40000)
 }
 });
 
