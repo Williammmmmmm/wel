@@ -31,7 +31,7 @@ p2.on('guildMemberAdd', member => {
 const fuli= member.guild.channels.get("629268891700428810");
 if(!fuli) return;
 if(fuli) {
-setTimeout(() => fuli.send(`**Hello , you're in dint.*`), 10000)
+setTimeout(() => fuli.send(`*Hello , you're in dint.*`), 10000)
 }
 });
 
