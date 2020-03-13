@@ -19,7 +19,7 @@ p1.on('guildMemberAdd', member => {
 const fuli= member.guild.channels.get("639899318580674581");
 if(!fuli) return;
 if(fuli) {
-setTimeout(() => fuli.send(`You're in **Serenity.**`), 10000)
+setTimeout(() => fuli.send(`greetings our new pùrt; companion..**`), 2000)
 }
 });
 
