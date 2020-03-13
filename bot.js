@@ -16,10 +16,10 @@ const p1 = new D1.Client();
 
     console.log("oNNN1");
 p1.on('guildMemberAdd', member => {
-const fuli= member.guild.channels.get("676525568791019521");
+const fuli= member.guild.channels.get("650334801378672670");
 if(!fuli) return;
 if(fuli) {
-setTimeout(() => fuli.send(`greetings our new pùrt; companion..**`), 2000)
+setTimeout(() => fuli.send(`**greetings our new pùrt; companion..**`), 2000)
 }
 });
 
