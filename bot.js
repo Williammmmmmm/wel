@@ -17,7 +17,7 @@ p1.on('guildMemberAdd', member => {
 const fuli= member.guild.channels.get("683035809858977927");
 if(!fuli) return;
 if(fuli) {
-setTimeout(() => fuli.send(`**ترحيب**`), 2000)
+setTimeout(() => fuli.send(`**ترحيب**`), 10000)
 }
 });
 
