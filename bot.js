@@ -29,7 +29,7 @@ setTimeout(() => fuli.send(`**# - Wélcome Tø Hørizon ,,**`), 2000)
 
 
     console.log("oNNN2");
-p1.on('guildMemberAdd', member => {
+p2.on('guildMemberAdd', member => {
 const fuli= member.guild.channels.get("683035809858977927");
 if(!fuli) return;
 if(fuli) {
