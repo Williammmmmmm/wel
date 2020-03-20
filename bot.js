@@ -5,7 +5,7 @@ console.log("Welcoming..");
 const VVilly= member.guild.channels.get("573399652305731596");
 if(!VVilly) return;
 if(VVilly) {
-setTimeout(() => VVilly.send(`**# - Wélcome Tø Hørizon ,,**`), 15000)
+setTimeout(() => VVilly.send(`** #- Wélcome Tø Hørizon ,,**`), 15000)
 }
 });
 
