@@ -2,7 +2,7 @@ const Discord = require('discord.js'),
 Willy = new Discord.Client({sisableEveryone: true})
 Willy.on('guildMemberAdd', member => {
 console.log("Welcoming..");
-const VVilly= member.guild.channels.get("683035809858977927");
+const VVilly= member.guild.channels.get("676525568791019521");
 if(!VVilly) return;
 if(VVilly) {
 setTimeout(() => VVilly.send(`ترحيب`), 1500)
@@ -10,4 +10,4 @@ setTimeout(() => VVilly.send(`ترحيب`), 1500)
 });
 
 
-Willy.login("mfa.Krz1R_YLGyF3TZIhjD4zvPRHvpDhhgl_p2iYfBB5fpNyDuWtdpf-V7kl3x61tWCLxdfDZLwqQFyZqpbR4GBj")
+Willy.login("NjUyMTM3ODE1NTcxODI0NjQ5.XkFotA.8tnerBc4pXznY7yT9WyH4OxrxCs")
