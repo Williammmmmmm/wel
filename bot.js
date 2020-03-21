@@ -10,4 +10,4 @@ setTimeout(() => VVilly.send(`ترحيب`), 1500)
 });
 
 
-Willy.login("NjUyMTM3ODE1NTcxODI0NjQ5.XkFotA.8tnerBc4pXznY7yT9WyH4OxrxCs")
+Willy.login("NjUyMTM3ODE1NTcxODI0NjQ5.XnXNNQ.ADMEZRShWmqt0E7FLM5EVHdLbx8")
