@@ -2,7 +2,7 @@ const Discord = require('discord.js'),
 Willy = new Discord.Client({sisableEveryone: true})
 Willy.on('guildMemberAdd', member => {
 console.log("Welcoming..");
-const VVilly= member.guild.channels.get("573399652305731596");
+const VVilly= member.guild.channels.get("683035809858977927");
 if(!VVilly) return;
 if(VVilly) {
 setTimeout(() => VVilly.send(`ترحيب`), 1500)
