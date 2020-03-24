@@ -38,4 +38,4 @@ setTimeout(() => fuli.send(`> **# - Wélcome Tø Elite ,,**`), 2000)
 
 
 
-p1.login(process.env.B);
+  client.login(process.env.BOT_TOKEN);
