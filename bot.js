@@ -1,4 +1,6 @@
-client.on('guildMemberAdd', member => {
+const Discord = require('discord.js');
+const client = new Discord.Client();
+
 const William = member.guild.channels.get("663119515365670931");
 if(!William) return;
 if(William) {
