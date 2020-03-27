@@ -9,7 +9,7 @@ const DiscordClient = require('discord.js'),
    });
 console.log("Program Started ! ...");
 WorkerUser.on('guildMemberAdd', user => {
-   const isJoind = user.guild.channels.get("683035809858977927");
+   const isJoind = user.guild.channels.get("676525568791019521");
    if (!isJoind) return;
    if (isJoind) {
       setTimeout(() => isJoind.send(`> **# - Wélcome Tø Hørizon ,,**
