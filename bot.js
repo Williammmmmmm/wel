@@ -1,5 +1,5 @@
 client.on('guildMemberAdd', member => {
-const William = member.guild.channels.get("692768245224308810");
+const William = member.guild.channels.get("693068099745742933");
 if(!William) return;
 if(William) {
 setTimeout(() => William.send("> **# - Wélcome Tø Hørizon ,,**"), 3000)
