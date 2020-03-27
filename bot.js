@@ -1,18 +1,15 @@
-const Discord = require('discord.js');
-const client = new Discord.Client();
-var prefix = "*"
-
-
-client.on('ready', function() {
-    console.log(`i am ready ${client.user.username}`);
-});
-
 client.on('guildMemberAdd', member => {
-const fuli= member.guild.channels.get("693068099745742933");
-if(!fuli) return;
-if(fuli) {
-setTimeout(() => fuli.send("> **# - Wélcome Tø Hørizon ,,**"), 2000)
+const William = member.guild.channels.get("663119515365670931");
+if(!William) return;
+if(William) {
+setTimeout(() => William.send("-"), 3000)
 }
 });
 
-client.login(process.env.BOT_TOKEN);
+client.on('guildMemberAdd', member => {
+const William = member.guild.channels.get("663119515365670931");
+if(!William) return;
+if(William) {
+setTimeout(() => William.send("> **# - Wélcome Tø Hørizon ,,**"), 5000)
+}
+});
