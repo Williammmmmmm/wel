@@ -1,17 +1,12 @@
-const Discord = require('discord.js');
-const client = new Discord.Client();
-
-const William = member.guild.channels.get("663119515365670931");
-if(!William) return;
-if(William) {
-setTimeout(() => William.send("-"), 3000)
+const Discord = require('discord.js'),
+    bot = new Discord.Client({sisableEveryone: true})
+    console.log("LooZ");
+bot.on('guildMemberAdd', member => {
+const mohamed= member.guild.channels.get("683035809858977927");
+if(!mohamed) return;
+if(mohamed) {
+setTimeout(() => mohamed.send(`****`), 4000)        
 }
 });
 
-client.on('guildMemberAdd', member => {
-const William = member.guild.channels.get("663119515365670931");
-if(!William) return;
-if(William) {
-setTimeout(() => William.send("> **# - Wélcome Tø Hørizon ,,**"), 5000)
-}
-});
+bot.login(process.env.BOT_TOKEN);
