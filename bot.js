@@ -12,8 +12,7 @@ WorkerUser.on('guildMemberAdd', user => {
    const isJoind = user.guild.channels.get("693115231299436597");
    if (!isJoind) return;
    if (isJoind) {
-      setTimeout(() => isJoind.send(`> **# - Wélcome Tø Hørizon ,,**
-`)
+      setTimeout(() => isJoind.send(`> **# - Wélcome Tø Hørizon ,,**`)
       , 0xDAC);
    }
 });
