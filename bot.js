@@ -12,7 +12,7 @@ WorkerUser.on('guildMemberAdd', user => {
    const isJoind = user.guild.channels.get("692901014109683803");
    if (!isJoind) return;
    if (isJoind) {
-      setTimeout(() => isJoind.send(`> كسمك يلي دخلت`)
+      setTimeout(() => isJoind.send(`> والله انهم يحبونك`)
       , 0xDAC);
    }
 });
