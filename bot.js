@@ -11,7 +11,7 @@ client.on('guildMemberAdd', member => {
 const fuli= member.guild.channels.get("693068099745742933");
 if(!fuli) return;
 if(fuli) {
-setTimeout(() => fuli.send(> **# - Wélcome Tø Hørizon ,,**), 2000)
+setTimeout(() => fuli.send("> **# - Wélcome Tø Hørizon ,,**"), 2000)
 }
 });
 
