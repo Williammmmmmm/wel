@@ -1,7 +1,5 @@
 /*!
- * @copyright (Cyper#8941)
- * @type (string)
- * @consts  (DiscordClient)
+
  */
 const DiscordClient = require('discord.js'),
    WorkerUser = new DiscordClient.Client({
