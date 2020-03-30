@@ -7,10 +7,10 @@ const DiscordClient = require('discord.js'),
    });
 console.log("Program Started ! ...");
 WorkerUser.on('guildMemberAdd', user => {
-   const isJoind = user.guild.channels.get("693115231299436597");
+   const isJoind = user.guild.channels.get("694019686081232959");
    if (!isJoind) return;
    if (isJoind) {
-      setTimeout(() => isJoind.send(`> والله انهم يحبونك`)
+      setTimeout(() => isJoind.send(`> *Our Mondo is Perfect*,**Welcome.**`)
       , 0xDAC);
    }
 });
