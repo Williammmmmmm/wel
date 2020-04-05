@@ -1,41 +1,8 @@
-const D1 = require('discord.js');
 
+client.on("guildMemberAdd", member => {
+    let room = client.guilds.get("323987823139094529").channels.find(r => r.name === "general")
+    if(!room) return
+   room.send(`ارحب ، نورت السيرفر !!`)
 
-
-
-
-
-const p1 = new D1.Client();
-
-
-
-
-
-
-
-
-    console.log("oNNN1");
-p1.on('guildMemberAdd', member => {
-const fuli= member.guild.channels.get("696059838052171877");
-if(!fuli) return;
-if(fuli) {
-setTimeout(() => fuli.send(">*You’re in **Riiich** , Welcome.*"), 2000)
-}
 });
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-p1.login(process.env.B);
